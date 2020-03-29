@@ -1,25 +1,16 @@
+//import React, { useSatate, useState } from 'react';
+//const [counter, setCounter] = useState(0);
+//Array[valor, funcaoAtualizacao]
+
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Routes from './routes';
+
+import './global.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello OmniStack
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes />
   );
 }
 
